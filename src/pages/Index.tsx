@@ -10,7 +10,7 @@ const Index = () => {
             Welcome to Diabetes Care Kenya
           </span>
           <h1 className="text-5xl font-bold tracking-tight mb-12 text-gray-900">
-            Creating Awareness & Supporting Diabetes Care
+{/*             Creating Awareness & Supporting Diabetes Care */}
           </h1>
 
           <Carousel className="w-full mb-16">
