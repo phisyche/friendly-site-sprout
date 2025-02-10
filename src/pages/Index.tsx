@@ -5,53 +5,57 @@ const Index = () => {
   return (
     <div className="min-h-screen pt-16 bg-gradient-to-br from-emerald-50 to-blue-50">
       <section className="container mx-auto px-6 py-8 animate-fadeIn">
-        <div className="max-w-6xl mx-auto mb-16">
-          <Carousel className="w-full">
+        <div className="max-w-6xl mx-auto">
+          <span className="inline-block px-3 py-1 text-sm font-medium bg-emerald-100 text-emerald-800 rounded-full mb-4">
+            Welcome to Diabetes Care Kenya
+          </span>
+          <h1 className="text-5xl font-bold tracking-tight mb-12 text-gray-900">
+            Creating Awareness & Supporting Diabetes Care
+          </h1>
+
+          <Carousel className="w-full mb-16">
             <CarouselContent>
               <CarouselItem className="relative h-[500px]">
                 <img 
-                  src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&h=500" 
-                  alt="Digital health representation" 
+                  src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1200&h=500" 
+                  alt="Blood glucose monitoring" 
                   className="w-full h-full object-cover rounded-xl"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-8 rounded-xl">
-                  <h2 className="text-3xl font-bold text-white mb-4">Digital Innovation in Diabetes Care</h2>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-8 rounded-xl">
+                  <h2 className="text-3xl font-bold text-white mb-4">Education & Awareness</h2>
+                  <p className="text-white text-lg mb-4">Regular workshops and seminars on diabetes management, nutrition, and lifestyle modifications. Our expert team provides comprehensive education on managing diabetes effectively.</p>
                 </div>
               </CarouselItem>
+
               <CarouselItem className="relative h-[500px]">
                 <img 
-                  src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&h=500" 
-                  alt="Peaceful nature scene" 
+                  src="https://images.unsplash.com/photo-1631815589968-fdb09a223b1e?auto=format&fit=crop&w=1200&h=500" 
+                  alt="Medical consultation" 
                   className="w-full h-full object-cover rounded-xl"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-8 rounded-xl">
-                  <h2 className="text-3xl font-bold text-white mb-4">Holistic Approach to Wellness</h2>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-8 rounded-xl">
+                  <h2 className="text-3xl font-bold text-white mb-4">Clinical Care</h2>
+                  <p className="text-white text-lg mb-4">Access to qualified healthcare professionals for regular check-ups, monitoring, and personalized treatment plans to manage your diabetes effectively.</p>
                 </div>
               </CarouselItem>
+
               <CarouselItem className="relative h-[500px]">
                 <img 
-                  src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=1200&h=500" 
-                  alt="Community engagement" 
+                  src="https://images.unsplash.com/photo-1576671081837-49000212a370?auto=format&fit=crop&w=1200&h=500" 
+                  alt="Support group meeting" 
                   className="w-full h-full object-cover rounded-xl"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-8 rounded-xl">
-                  <h2 className="text-3xl font-bold text-white mb-4">Community Support & Education</h2>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-8 rounded-xl">
+                  <h2 className="text-3xl font-bold text-white mb-4">Community Support</h2>
+                  <p className="text-white text-lg mb-4">Join our community of people living with diabetes. Share experiences, learn from others, and get emotional support from people who understand your journey.</p>
                 </div>
               </CarouselItem>
             </CarouselContent>
             <CarouselPrevious className="left-4" />
             <CarouselNext className="right-4" />
           </Carousel>
-        </div>
 
-        <div className="max-w-4xl mx-auto text-center">
-          <span className="inline-block px-3 py-1 text-sm font-medium bg-emerald-100 text-emerald-800 rounded-full mb-4">
-            Welcome to Diabetes Care Kenya
-          </span>
-          <h1 className="text-5xl font-bold tracking-tight mb-6 text-gray-900">
-            Creating Awareness & Supporting Diabetes Care
-          </h1>
-          <p className="text-xl text-gray-600 mb-8 leading-relaxed">
+          <p className="text-xl text-gray-600 mb-8 leading-relaxed max-w-4xl mx-auto text-center">
             Empowering Kenyans with diabetes through education, support, and quality healthcare services. Together, we can manage diabetes effectively and live healthy lives.
           </p>
           <div className="flex gap-4 justify-center">
