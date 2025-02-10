@@ -16,8 +16,8 @@ const Navigation = () => {
 
   const navItems = [
     { path: "/", label: "Home" },
-    { path: "/about", label: "About" },
-    { path: "/projects", label: "Projects" },
+    { path: "/about", label: "About Us" },
+    { path: "/programs", label: "Care & Management" },
     { path: "/contact", label: "Contact" },
   ];
 
@@ -33,18 +33,18 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           <Link
             to="/"
-            className="text-xl font-semibold tracking-tight hover:opacity-80 transition-opacity"
+            className="text-xl font-semibold tracking-tight hover:opacity-80 transition-opacity text-emerald-700"
           >
-            Portfolio
+            Diabetes Care Kenya
           </Link>
           <div className="hidden md:flex space-x-8">
             {navItems.map((item) => (
               <Link
                 key={item.path}
                 to={item.path}
-                className={`transition-all duration-200 hover:opacity-80 ${
+                className={`transition-all duration-200 hover:text-emerald-600 ${
                   location.pathname === item.path
-                    ? "text-black font-medium"
+                    ? "text-emerald-700 font-medium"
                     : "text-gray-600"
                 }`}
               >
