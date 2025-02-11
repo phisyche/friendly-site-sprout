@@ -1,9 +1,9 @@
 
 const Footer = () => {
   return (
-    <footer className="bg-white py-6 mt-auto">
+    <footer className="bg-gradient-to-r from-emerald-50 to-emerald-100 py-6 mt-auto border-t border-emerald-200">
       <div className="container mx-auto px-6">
-        <p className="text-center text-gray-600 text-sm">
+        <p className="text-center text-emerald-800 text-sm">
           © {new Date().getFullYear()} diabetescare.co.ke - All rights reserved
         </p>
       </div>
