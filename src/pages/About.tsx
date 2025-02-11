@@ -1,3 +1,4 @@
+
 import Footer from "@/components/Footer";
 
 const About = () => {
@@ -6,8 +7,8 @@ const About = () => {
       <section className="container mx-auto px-6 py-32 animate-fadeIn flex-grow">
         <div className="relative h-[400px] mb-12 rounded-xl overflow-hidden">
           <img 
-            src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&h=400" 
-            alt="Medical professional using laptop" 
+            src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=1200&h=400" 
+            alt="African healthcare professionals in a meeting" 
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-blue-900/70 to-transparent flex items-center">

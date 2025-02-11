@@ -1,3 +1,4 @@
+
 import Footer from "@/components/Footer";
 
 const Contact = () => {
@@ -8,8 +9,8 @@ const Contact = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
             <div className="relative h-[400px] rounded-xl overflow-hidden order-2 md:order-1">
               <img 
-                src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&h=400" 
-                alt="Modern medical technology" 
+                src="https://images.unsplash.com/photo-1612349316228-5942a9b489c2?auto=format&fit=crop&w=600&h=400" 
+                alt="African healthcare team in consultation" 
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-br from-blue-900/50 via-transparent to-transparent" />

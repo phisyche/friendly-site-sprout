@@ -1,3 +1,4 @@
+
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import Footer from "@/components/Footer";
 
@@ -17,8 +18,8 @@ const Index = () => {
             <CarouselContent>
               <CarouselItem className="relative h-[500px]">
                 <img 
-                  src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=1200&h=500" 
-                  alt="Kenyan healthcare provider consulting with patient" 
+                  src="https://images.unsplash.com/photo-1584516150909-c43483ee7932?auto=format&fit=crop&w=1200&h=500" 
+                  alt="African healthcare provider consulting with patient" 
                   className="w-full h-full object-cover rounded-xl"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-8 rounded-xl">
@@ -29,8 +30,8 @@ const Index = () => {
 
               <CarouselItem className="relative h-[500px]">
                 <img 
-                  src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&h=500" 
-                  alt="Medical consultation in a Kenyan clinic" 
+                  src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=1200&h=500" 
+                  alt="African doctor reviewing medical charts" 
                   className="w-full h-full object-cover rounded-xl"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-8 rounded-xl">
@@ -41,8 +42,8 @@ const Index = () => {
 
               <CarouselItem className="relative h-[500px]">
                 <img 
-                  src="https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=1200&h=500" 
-                  alt="Community health support group in Kenya" 
+                  src="https://images.unsplash.com/photo-1581056771107-24ca5f033842?auto=format&fit=crop&w=1200&h=500" 
+                  alt="Group therapy session with African community members" 
                   className="w-full h-full object-cover rounded-xl"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-8 rounded-xl">
