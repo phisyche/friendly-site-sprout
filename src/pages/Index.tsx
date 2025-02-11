@@ -1,10 +1,10 @@
-
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen pt-16 bg-gradient-to-br from-emerald-50 to-blue-50">
-      <section className="container mx-auto px-6 py-8 animate-fadeIn">
+    <div className="min-h-screen pt-16 bg-gradient-to-br from-emerald-50 to-blue-50 flex flex-col">
+      <section className="container mx-auto px-6 py-8 animate-fadeIn flex-grow">
         <div className="max-w-6xl mx-auto">
           <span className="inline-block px-3 py-1 text-sm font-medium bg-emerald-100 text-emerald-800 rounded-full mb-4">
             Welcome to Diabetes Care Kenya
@@ -68,6 +68,7 @@ const Index = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

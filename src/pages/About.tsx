@@ -1,8 +1,9 @@
+import Footer from "@/components/Footer";
 
 const About = () => {
   return (
-    <div className="min-h-screen pt-16 bg-white">
-      <section className="container mx-auto px-6 py-32 animate-fadeIn">
+    <div className="min-h-screen pt-16 bg-white flex flex-col">
+      <section className="container mx-auto px-6 py-32 animate-fadeIn flex-grow">
         <div className="relative h-[400px] mb-12 rounded-xl overflow-hidden">
           <img 
             src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&h=400" 
@@ -32,9 +33,9 @@ const About = () => {
           </p>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };
 
 export default About;
-

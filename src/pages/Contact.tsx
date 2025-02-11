@@ -1,8 +1,9 @@
+import Footer from "@/components/Footer";
 
 const Contact = () => {
   return (
-    <div className="min-h-screen pt-16">
-      <section className="container mx-auto px-6 py-32 animate-fadeIn">
+    <div className="min-h-screen pt-16 flex flex-col">
+      <section className="container mx-auto px-6 py-32 animate-fadeIn flex-grow">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
             <div className="relative h-[400px] rounded-xl overflow-hidden order-2 md:order-1">
@@ -60,9 +61,9 @@ const Contact = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };
 
 export default Contact;
-

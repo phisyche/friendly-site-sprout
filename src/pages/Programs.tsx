@@ -1,8 +1,9 @@
+import Footer from "@/components/Footer";
 
 const Programs = () => {
   return (
-    <div className="min-h-screen pt-16 bg-white">
-      <section className="container mx-auto px-6 py-32 animate-fadeIn">
+    <div className="min-h-screen pt-16 bg-white flex flex-col">
+      <section className="container mx-auto px-6 py-32 animate-fadeIn flex-grow">
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <span className="inline-block px-3 py-1 text-sm font-medium bg-emerald-100 text-emerald-800 rounded-full mb-4">
@@ -55,9 +56,9 @@ const Programs = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };
 
 export default Programs;
-
