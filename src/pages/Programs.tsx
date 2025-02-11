@@ -19,8 +19,8 @@ const Programs = () => {
           </div>
           <div className="relative h-[300px] rounded-xl overflow-hidden">
             <img 
-              src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=600&h=300" 
-              alt="African healthcare professional consulting with patient" 
+              src="https://images.unsplash.com/photo-1642543492953-49d493588e41?auto=format&fit=crop&w=600&h=300" 
+              alt="Diabetes consultation at Nairobi Hospital" 
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-emerald-900/60 to-transparent" />

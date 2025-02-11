@@ -18,37 +18,37 @@ const Index = () => {
             <CarouselContent>
               <CarouselItem className="relative h-[500px]">
                 <img 
-                  src="https://images.unsplash.com/photo-1584516150909-c43483ee7932?auto=format&fit=crop&w=1200&h=500" 
-                  alt="African healthcare provider consulting with patient" 
+                  src="https://images.unsplash.com/photo-1666214280557-f1b5022eb634?auto=format&fit=crop&w=1200&h=500" 
+                  alt="Kenyan doctor at Kenyatta National Hospital providing diabetes consultation" 
                   className="w-full h-full object-cover rounded-xl"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-8 rounded-xl">
                   <h2 className="text-3xl font-bold text-white mb-4">Education & Awareness</h2>
-                  <p className="text-white text-lg mb-4">Regular workshops and seminars on diabetes management, nutrition, and lifestyle modifications. Our expert team provides comprehensive education on managing diabetes effectively.</p>
+                  <p className="text-white text-lg mb-4">Regular workshops and seminars on diabetes management, nutrition, and lifestyle modifications at Kenyatta National Hospital. Our expert team provides comprehensive education on managing diabetes effectively.</p>
                 </div>
               </CarouselItem>
 
               <CarouselItem className="relative h-[500px]">
                 <img 
-                  src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=1200&h=500" 
-                  alt="African doctor reviewing medical charts" 
+                  src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?auto=format&fit=crop&w=1200&h=500" 
+                  alt="Medical consultation at Nairobi Hospital diabetes clinic" 
                   className="w-full h-full object-cover rounded-xl"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-8 rounded-xl">
                   <h2 className="text-3xl font-bold text-white mb-4">Clinical Care</h2>
-                  <p className="text-white text-lg mb-4">Access to qualified healthcare professionals for regular check-ups, monitoring, and personalized treatment plans to manage your diabetes effectively.</p>
+                  <p className="text-white text-lg mb-4">Access to qualified healthcare professionals at leading Kenyan hospitals for regular check-ups, monitoring, and personalized treatment plans.</p>
                 </div>
               </CarouselItem>
 
               <CarouselItem className="relative h-[500px]">
                 <img 
-                  src="https://images.unsplash.com/photo-1581056771107-24ca5f033842?auto=format&fit=crop&w=1200&h=500" 
-                  alt="Group therapy session with African community members" 
+                  src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=1200&h=500" 
+                  alt="Support group meeting at Aga Khan Hospital Nairobi" 
                   className="w-full h-full object-cover rounded-xl"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-8 rounded-xl">
                   <h2 className="text-3xl font-bold text-white mb-4">Community Support</h2>
-                  <p className="text-white text-lg mb-4">Join our community of people living with diabetes. Share experiences, learn from others, and get emotional support from people who understand your journey.</p>
+                  <p className="text-white text-lg mb-4">Join our community of people living with diabetes at various support centers across Kenya. Share experiences and get support from people who understand your journey.</p>
                 </div>
               </CarouselItem>
             </CarouselContent>
