@@ -10,15 +10,15 @@ const Index = () => {
             Welcome to Diabetes Care Kenya
           </span>
           <h1 className="text-5xl font-bold tracking-tight mb-12 text-gray-900">
-{/*             Creating Awareness & Supporting Diabetes Care */}
+            Creating Awareness & Supporting Diabetes Care
           </h1>
 
           <Carousel className="w-full mb-16">
             <CarouselContent>
               <CarouselItem className="relative h-[500px]">
                 <img 
-                  src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1200&h=500" 
-                  alt="Blood glucose monitoring" 
+                  src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=1200&h=500" 
+                  alt="Kenyan healthcare provider consulting with patient" 
                   className="w-full h-full object-cover rounded-xl"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-8 rounded-xl">
@@ -29,8 +29,8 @@ const Index = () => {
 
               <CarouselItem className="relative h-[500px]">
                 <img 
-                  src="https://images.unsplash.com/photo-1631815589968-fdb09a223b1e?auto=format&fit=crop&w=1200&h=500" 
-                  alt="Medical consultation" 
+                  src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&h=500" 
+                  alt="Medical consultation in a Kenyan clinic" 
                   className="w-full h-full object-cover rounded-xl"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-8 rounded-xl">
@@ -41,8 +41,8 @@ const Index = () => {
 
               <CarouselItem className="relative h-[500px]">
                 <img 
-                  src="https://images.unsplash.com/photo-1576671081837-49000212a370?auto=format&fit=crop&w=1200&h=500" 
-                  alt="Support group meeting" 
+                  src="https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=1200&h=500" 
+                  alt="Community health support group in Kenya" 
                   className="w-full h-full object-cover rounded-xl"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-8 rounded-xl">
